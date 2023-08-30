@@ -14,11 +14,36 @@ namespace Unisys.EmployeeMangemenet
         public string performance;
         public static string companyName;
 
+        public Employee()
+        {
+
+        }
+
         public Employee(int id)
         {
             this.id = id;
             Console.WriteLine("Object created ");
             Console.WriteLine("Launch browser");
+        }
+
+        public Employee(int id,string name)
+        {
+            this.id = id;
+            this.name = name;
+            Console.WriteLine("Object created ");
+            Console.WriteLine("Launch browser");
+        }
+
+        public Employee(string name, int id)
+        {
+            this.id = id;
+            this.name = name;
+            Console.WriteLine("Object created ");
+            Console.WriteLine("Launch browser");
+        }
+        public Employee(double id)
+        {
+            
         }
 
         public int Id

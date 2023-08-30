@@ -12,7 +12,7 @@ namespace Unisys.SeleniumConcepts2
     public class SeleniumAdvanceTest
     {
         [Test]
-        public void UploadTest()
+        public void Demo1UploadTest()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -24,7 +24,7 @@ namespace Unisys.SeleniumConcepts2
         }
 
         [Test]
-        public void Actions1Test()
+        public void Demo2Actions1Test()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -39,7 +39,7 @@ namespace Unisys.SeleniumConcepts2
         }
 
         [Test]
-        public void Actions2Test()
+        public void Demo3Actions2Test()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -62,7 +62,7 @@ namespace Unisys.SeleniumConcepts2
         }
 
         [Test]
-        public void Actions3Test()
+        public void Demo4Actions3Test()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -79,7 +79,7 @@ namespace Unisys.SeleniumConcepts2
         }
 
         [Test]
-        public void Action4Keyboard3Test()
+        public void Demo5Action4Keyboard3Test()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -90,6 +90,23 @@ namespace Unisys.SeleniumConcepts2
             actions.KeyDown(Keys.Shift).SendKeys("hello").KeyUp(Keys.Shift).Pause(TimeSpan.FromSeconds(1))
                 .SendKeys(Keys.ArrowDown).SendKeys(Keys.ArrowDown).SendKeys(Keys.ArrowDown).Pause(TimeSpan.FromSeconds(1))
                  .SendKeys(Keys.Enter).Build().Perform();
+        }
+
+
+        [Test]
+        public void Demo5OptionsDemo1Test()
+        {
+            ChromeOptions options = new ChromeOptions();
+            options.AcceptInsecureCertificates = true;
+            options.AddArgument("start-maximized");
+            options.AddArgument("--disable-notifications");
+
+            options.AddUserProfilePreference("download.default_directory", @"C:\");
+
+            IWebDriver driver = new ChromeDriver(options);
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            driver.Url = "https://www.irctc.co.in/nget/train-search";
         }
     }
 }

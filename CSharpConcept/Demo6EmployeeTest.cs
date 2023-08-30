@@ -11,10 +11,14 @@ namespace CSharpConcept
     {
         public static void Main(string[] args)
         {
+
+            //Demo7Calculator cal=new Demo7Calculator();
+            //cal.Add(1, 1);
+
             //Console.WriteLine(@"C:\mine");
             Employee.companyName = "Unisys";
 
-            Employee emp1 = new Employee(101);
+            Employee emp1 = new Employee();
             Employee emp2 = new Employee(102);
             Employee emp3 = new Employee(103);
             Employee emp4= Employee.GetEmployeeInstance();
