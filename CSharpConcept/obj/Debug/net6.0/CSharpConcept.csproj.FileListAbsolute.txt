@@ -1,0 +1,14 @@
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\bin\Debug\net6.0\CSharpConcept.exe
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\bin\Debug\net6.0\CSharpConcept.deps.json
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\bin\Debug\net6.0\CSharpConcept.runtimeconfig.json
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\bin\Debug\net6.0\CSharpConcept.dll
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\bin\Debug\net6.0\CSharpConcept.pdb
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.AssemblyInfoInputs.cache
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.AssemblyInfo.cs
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.csproj.CoreCompileInputs.cache
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.dll
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\refint\CSharpConcept.dll
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.pdb
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\CSharpConcept.genruntimeconfig.cache
+C:\Mine\Company\Unisys Aug 2023\CSharpConceptSln\CSharpConcept\obj\Debug\net6.0\ref\CSharpConcept.dll
