@@ -10,7 +10,7 @@ namespace SeleniumConcepts
 {
     public class Demo6Frame
     {
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -26,7 +26,6 @@ namespace SeleniumConcepts
 
             //switch to frame using name or id as string
             //driver.SwitchTo().Frame("login_page");
-
 
             //enter userid as john123
             driver.FindElement(By.Name("fldLoginUserId")).SendKeys("jack123");
