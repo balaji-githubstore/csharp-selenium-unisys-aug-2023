@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcept", "CSharpConcept\CSharpConcept.csproj", "{718730EC-0771-41E5-9F07-9FCE62418579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcepts", "SeleniumConcepts\SeleniumConcepts.csproj", "{984DA6F1-3B05-46C1-851E-22B3E17CBD68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcepts", "SeleniumConcepts\SeleniumConcepts.csproj", "{984DA6F1-3B05-46C1-851E-22B3E17CBD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcepts2", "SeleniumConcepts2\SeleniumConcepts2.csproj", "{641EE29E-2D55-4169-9A55-C79890F3428F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{984DA6F1-3B05-46C1-851E-22B3E17CBD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984DA6F1-3B05-46C1-851E-22B3E17CBD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{984DA6F1-3B05-46C1-851E-22B3E17CBD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641EE29E-2D55-4169-9A55-C79890F3428F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641EE29E-2D55-4169-9A55-C79890F3428F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641EE29E-2D55-4169-9A55-C79890F3428F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641EE29E-2D55-4169-9A55-C79890F3428F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
