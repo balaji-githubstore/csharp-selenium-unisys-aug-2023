@@ -14,7 +14,7 @@ namespace SeleniumConcepts
     /// </summary>
     public class Demo4SalesForce
     {
-        public static void Main(string[] args)
+        public static void Main2(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
