@@ -9,6 +9,9 @@ using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumConcepts
 {
+    /// <summary>
+    /// Salesforce SignUp assignments 
+    /// </summary>
     public class Demo4SalesForce
     {
         public static void Main(string[] args)
