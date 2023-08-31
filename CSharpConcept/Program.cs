@@ -61,6 +61,8 @@ namespace Unisys.CSharpConcept
             Console.WriteLine(colors[1]);
             Console.WriteLine(colors[2]);
 
+            colors=new string[4];
+
             Console.ReadLine();
         }
     }

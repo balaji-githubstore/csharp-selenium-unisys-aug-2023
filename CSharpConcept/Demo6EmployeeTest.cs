@@ -9,7 +9,7 @@ namespace CSharpConcept
 {
     public class Demo6EmployeeTest
     {
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
 
             //Demo7Calculator cal=new Demo7Calculator();
