@@ -40,7 +40,7 @@ namespace CSharpConcept
 
     public class Demp9Inheritance
     {
-        public static void Main(String[] args)
+        public static void Main2(String[] args)
         {
             //Father f=new Father();
             //Console.WriteLine(f.fAge);

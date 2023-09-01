@@ -1,23 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unisys.CSharpConcept
+namespace DatabaseConnectionProject
 {
-    //basic programs
-    public class Program
+    class Program
     {
-        public static void Main1(string[] args)
+        static void Main2(string[] args)
         {
+
             Console.WriteLine("Balaji Dinakaran!!!!!");
 
             byte a = 10; //a is reserved for byte -> 1 byte (8 bits)
             int b = 10; //b is reserved for int --> 4 byte (32 bits)
             long c = 10; //8 byte (64 bits)
             char d = 'r'; //16 bits 
-            bool check=true;
+            bool check = true;
             float f = 10.2f; //32 bits
             double g = 10.2; //64 bits
 
@@ -25,17 +29,17 @@ namespace Unisys.CSharpConcept
 
             String myName = "Balaji"; //6*16 bits
 
-            long result= b + c;
+            long result = b + c;
             Console.WriteLine(result);
 
             int radius = 10;
 
             //calculate area of circle and print it
-            double output= 3.14 * radius * radius;
-            Console.WriteLine("The result is "+output);
-          
+            double output = 3.14 * radius * radius;
+            Console.WriteLine("The result is " + output);
 
-            
+
+
             String name = "Balaji";
             Console.WriteLine(name[1]);
             Console.WriteLine(name.Length);
@@ -61,9 +65,10 @@ namespace Unisys.CSharpConcept
             Console.WriteLine(colors[1]);
             Console.WriteLine(colors[2]);
 
-            colors=new string[4];
+            colors = new string[4];
 
             Console.ReadLine();
+
         }
     }
 }
